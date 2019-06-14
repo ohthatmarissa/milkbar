@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico:400,700,900');
+
+
 header {
     background: white;
 }
 
 .logo {
+    font-family: Pacifico;
+    color: hotpink;
     font-weight: bold;
 }
 
@@ -20,9 +25,9 @@ li {
 }
 
 a {
-    padding: 1.5em;
+    padding: 20px;
     text-transform: uppercase;
-    font-size: .8em;
+    font-size: 24px;
 }
 
 a:hover {
