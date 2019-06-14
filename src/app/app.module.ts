@@ -9,6 +9,7 @@ import { ClassesComponent } from './classes/classes.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { LocationsComponent } from './locations/locations.component';
 import { AboutComponent } from './about/about.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { AboutComponent } from './about/about.component';
     ClassesComponent,
     RecipesComponent,
     LocationsComponent,
-    AboutComponent
+    AboutComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule
