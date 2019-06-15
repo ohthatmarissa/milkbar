@@ -1,3 +1,26 @@
-/* body {
-    background-color: pink;
-} */
+.links {
+   
+}
+
+.neon-logo {
+    float: right;
+    margin-right: 300px;
+}
+
+ul {
+   display: block;
+    float: right;
+    margin-right: 300px;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+li {
+    padding: 18px;
+}
+
+a {
+    padding: 10px;
+    color: white;
+    background-color: black;
+}

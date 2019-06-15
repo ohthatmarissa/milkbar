@@ -10,9 +10,9 @@ body, html {
 body {
     font-family: Roboto;
     font-weight: 900;
-    font-size: 1.6rem;
+    font-size: 24px;
     line-height: 26px;
-    background-color: pink;
+    background-color: rgb(245, 206, 232);
 }
 
 a {
@@ -41,7 +41,7 @@ a {
 
 
 section {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     padding: 2em;
 }
