@@ -92,6 +92,7 @@ h4 {
 /* SECTION SEASONAL */
 .section-seasonal {
     background-color: rgb(255, 241, 224);
+    margin-top: -50px;
 }
 
 .heading {
@@ -110,4 +111,39 @@ h3 {
     line-height: 1.15em;
     font-size: 30px;
     
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: 100%;
+    grid-column-gap: 15px;
+}
+
+.products-grid .product img {
+    min-height: 100px;
+    width: auto;
+    
+}
+
+img, picture {
+    margin: 0;
+    max-width: 100%;
+    padding: 25px;
+}
+
+#products {
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.shop-link {
+    text-align: center;
+}
+
+#shop-link {
+    text-align: center;
+    background-color: hotpink;
+
 }
