@@ -8,10 +8,10 @@ header {
 .logo {
     font-family: Pacifico;
     color: hotpink;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-size: 100px;
     text-transform: lowercase;
-    margin: 22px;
+    margin: 18px;
     
 }
 

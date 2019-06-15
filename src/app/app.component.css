@@ -1,10 +1,23 @@
+.section-first {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.cake {
+    display: block;
+    width: 50%;
+    margin-right: 500px;
+    
+}
+
 .links {
-   
+    float: left;
+    /* margin-right: 100px; */
 }
 
 .neon-logo {
-    float: right;
-    margin-right: 300px;
+    float: left;
+    /* margin-right: 300px; */
 }
 
 ul {
