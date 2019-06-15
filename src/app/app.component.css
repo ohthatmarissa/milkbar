@@ -1,23 +1,32 @@
 .section-first {
     display: grid;
     grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
 }
 
-.cake {
-    display: block;
-    width: 50%;
-    margin-right: 500px;
-    
+
+
+.background {
+    height: 200%;
+    margin-top: 150px;
+    top: 0;
+    left: 0;
+    width: 50vw;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-size: cover;
 }
 
 .links {
-    float: left;
-    /* margin-right: 100px; */
+    margin-top: 400px;
+    float: right;
 }
 
 .neon-logo {
-    float: left;
-    /* margin-right: 300px; */
+    margin-top: 100px;
+    margin-left: 700px;
+    float: right;
 }
 
 ul {
@@ -35,5 +44,35 @@ li {
 a {
     padding: 10px;
     color: white;
-    background-color: black;
+    background-color: rgb(35, 35, 35);
+}
+
+.featured {
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    justify-self: center;
+    font-weight: 400;
+    font-size: 18px;
+    width: 300px;
+    
+    margin-top: 80px;
+    padding: 30px;
+    background-color: rgb(255, 241, 224);
+}
+
+h4 {
+    background-color: hotpink;
+    padding: 30x;
+    position: absolute;
+    /* bottom: 92%;
+    left: -30px; */
+    font-size: 18px;
+    margin: 0;
+    transform: rotate(-8deg);
+    letter-spacing: 3px;
+    line-height: 24px;
+    text-transform: uppercase;
+    
 }

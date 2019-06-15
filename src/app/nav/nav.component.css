@@ -3,6 +3,7 @@
 
 header {
     background: white;
+    grid-area: header;
 }
 
 .logo {
