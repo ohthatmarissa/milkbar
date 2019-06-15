@@ -22,11 +22,13 @@ a {
 .logo {
     font-family: Pacifico;
     color: hotpink;
-    font-weight: bold;  
+    font-weight: bold; 
+    margin-block: 0 0 0 0; 
 }
 
-.container {
-    width: 80%;
+.container-logo {
+    width: 100%;
+    height: 50px;
     margin: 0 auto;
     padding: 1.3em;
     display: grid;
