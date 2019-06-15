@@ -33,8 +33,6 @@
     grid-row-end: span 1;
     justify-self: center;
     margin-top: 100px;
-    /* margin-left: 700px;
-    float: right; */
 }
 
 ul {
@@ -65,7 +63,7 @@ a {
     font-size: 18px;
     width: 300px;
     
-    margin-top: 100px;
+    margin-top: 70px;
     padding: 30px;
     background-color: rgb(255, 241, 224);
 }
@@ -82,5 +80,34 @@ h4 {
     letter-spacing: 3px;
     line-height: 24px;
     text-transform: uppercase;
+    
+}
+
+#store {
+    color: hotpink;
+    background-color: rgb(255, 241, 224);
+    text-decoration: underline;
+}
+
+/* SECTION SEASONAL */
+.section-seasonal {
+    background-color: rgb(255, 241, 224);
+}
+
+.heading {
+    text-align: center;
+    padding: 80px;
+}
+
+p {
+    font-weight: 400; 
+    
+}
+
+h3 {
+    font-weight: 900;
+    letter-spacing: 6.5px;
+    line-height: 1.15em;
+    font-size: 30px;
     
 }
