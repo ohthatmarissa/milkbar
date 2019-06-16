@@ -93,6 +93,7 @@ h4 {
 .section-seasonal {
     background-color: rgb(255, 241, 224);
     margin-top: -50px;
+    
 }
 
 .heading {
@@ -146,4 +147,17 @@ img, picture {
     text-align: center;
     background-color: hotpink;
 
+}
+
+.cookies {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    padding: 30px 90px;
+}
+
+.content {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
 }
