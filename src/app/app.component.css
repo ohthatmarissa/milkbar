@@ -1,13 +1,13 @@
 .section-first {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%; 
 }
 
 
-
+/* CAKE IMAGE */
 .background {
-    height: 200%;
+    height: 90%;
     margin-top: 150px;
     top: 0;
     left: 0;
@@ -24,6 +24,7 @@
     grid-row-start: 2;
     grid-row-end: span 1;
     margin-top: 60px;
+    
 }
 
 .neon-logo {
@@ -99,6 +100,7 @@ h4 {
 .heading {
     text-align: center;
     padding: 80px;
+    font-weight: 400;
 }
 
 p {
@@ -193,4 +195,38 @@ img, picture {
     background-color: rgb(255, 241, 224);
     color: hotpink;
     text-decoration: underline;
+}
+
+/* COLLAGE SECTION */
+.collage-1 {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    background-color: rgb(255, 241, 224);
+    padding-top: 100px;
+    height: 1000px;
+}
+
+#one {
+    grid-row: 1/span 4;
+    grid-column: 1/span 4;
+}
+
+#two {
+    grid-row: 5/span 3;
+    grid-column: 1/span 5;
+}
+#three {
+    grid-row: 2/span 4;
+    grid-column: 4/span 5;
+}
+
+.classes-content {
+    grid-row: 3/span 5;
+    grid-column: 7/span 5;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
 }
