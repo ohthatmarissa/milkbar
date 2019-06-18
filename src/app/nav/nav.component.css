@@ -38,3 +38,15 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.search {
+   
+    color: hotpink;
+    margin-left: 220px;
+}
+
+.cart {
+   
+    color: hotpink;
+    margin-right: 20px;
+}
