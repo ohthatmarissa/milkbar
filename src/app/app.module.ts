@@ -9,6 +9,7 @@ import { RecipesComponent } from './recipes/recipes.component';
 import { LocationsComponent } from './locations/locations.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
+import { ClassDetailComponent } from './class-detail/class-detail.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { HomeComponent } from './home/home.component';
     LocationsComponent,
     AboutComponent,
     HomeComponent,
+    ClassDetailComponent,
   ],
   imports: [
     BrowserModule,

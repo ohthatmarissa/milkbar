@@ -8,6 +8,7 @@ import { LocationsComponent } from './locations/locations.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { ShopComponent } from './shop/shop.component';
 import { NavComponent } from './nav/nav.component';
+import { ClassDetailComponent } from './class-detail/class-detail.component';
 
 const appRoutes: Routes = [
     { path: '', component: HomeComponent },
@@ -17,6 +18,7 @@ const appRoutes: Routes = [
     { path: 'recipes', component: RecipesComponent },
     { path: 'shop', component: ShopComponent },
     { path:  '', component: NavComponent },
+    { path: 'classes/:id', component: ClassDetailComponent},
 
 ];
 
