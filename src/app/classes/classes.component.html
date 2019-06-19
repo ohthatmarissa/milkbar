@@ -3,7 +3,7 @@
     <div class="background" role="img" style="background-image: url(./assets/img/Screen_Shot_1200x.png)">
     </div>
     <div class="background-color"></div>
-    <h1>CLASSES AT MILK BAR</h1>
+    <h1 class="black-title">CLASSES AT MILK BAR</h1>
   </div>
   <div class="class-description">
     <p>Milk Bar classes focus on the techniques that make our baked treats so uniquely delicious. In our cake classes we’ll show you all the steps for assembling our most popular layer cake flavor combinations (an irresistible balance of cake, spread, frosting, crumbs, and crunch!), and how we transform our cake scraps and turn them into bite sized cake truffles!
@@ -11,6 +11,21 @@
     Questions? Check out our Classes FAQ.</p>
     <br><br>
     <a id="pink-link" href="">BROWSE CLASSES</a>
-  
-  </div>
+    </div>
+    <div class="quote">
+      <img id="class" src="./assets/img/DC-Logan-Media-Baking-Class_800x.jpg">
+      <p>"I took the Birthday Cake Class with my mom in NYC and had a ton of fun. It's the perfect balance of activity and education PLUS you get to eat everything throughout the class(side note: I ate a lot of frosting)."</p>
+      <h5>ERIN, BROOKLYN NY</h5>
+    </div>
+</section>
+<section class="browse-classes">
+    <div>
+      <h1 class="title">BROWSE CLASSES</h1>
+    </div>
+    <div class="class-grid">
+      <div *ngFor="let class of classes">
+      
+        <h4><img id="NYC" src="{{class.image}}"><br><br>{{class.title}} - {{class.location}}</h4>
+      </div>
+    </div>
 </section>
