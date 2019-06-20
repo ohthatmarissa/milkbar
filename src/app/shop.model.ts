@@ -1,2 +1,2 @@
-export class Shop.Model {
-}
+// export class Shop.Model {
+// }

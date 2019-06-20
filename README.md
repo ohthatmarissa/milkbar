@@ -31,9 +31,10 @@ A website created with HTML, CSS, JavaScript, Angular, Node, and Webpacks that a
 2. Download and install Node.js and Node package manager and Angular(This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.) 
 3. In command line, in the project main, use command $ npm install
 4. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-5. Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-6. Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-7. Enjoy!
+5. You will need to have your own Firebase credentials, create a project, and clone the JSON 
+6. Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+7. Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+8. Enjoy!
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
