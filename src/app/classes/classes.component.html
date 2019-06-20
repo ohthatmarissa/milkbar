@@ -23,11 +23,10 @@
       <h1 class="title">BROWSE CLASSES</h1>
     </div>
     <div class="class-grid">
-      <div *ngFor="let class of classes" (click)="goToDetailPage(class)">
+      <div *ngFor="let class of classes | async| class:selectedLocation" (click)="goToDetailPage(class)">
       
-        <h4><img id="NYC" src="{{class.image}}"><br><br>{{class.title}} - {{class.location}}</h4>
+        <h4><img id="NYC" src="./assets/img/{{class.image}}"><br><br>{{class.title}} - {{class.location}}</h4>
       </div>
     </div>
 </section>
 
-<!-- ./assets/img/ -->
