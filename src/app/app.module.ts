@@ -14,6 +14,7 @@ import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { ClassDetailComponent } from './class-detail/class-detail.component';
 import { ClassPipe } from './class.pipe';
+import { ClassService } from './class.service';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -41,7 +42,9 @@ export const firebaseConfig = {
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule
   ],
-  providers: [],
+  providers: [
+    ClassService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

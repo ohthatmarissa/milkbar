@@ -21,7 +21,7 @@ export class ClassesComponent implements OnInit {
 
   }
 
-  goToDetailPage(clickedClass: Class) {
-    // this.router.navigate(['classes', clickedClass.id])
+  goToDetailPage(clickedClass) {
+    this.router.navigate(['classes', clickedClass.$key])
   };
 }

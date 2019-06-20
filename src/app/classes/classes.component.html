@@ -26,6 +26,7 @@
       <div *ngFor="let class of classes | async| class:selectedLocation" (click)="goToDetailPage(class)">
       
         <h4><img id="NYC" src="./assets/img/{{class.image}}"><br><br>{{class.title}} - {{class.location}}</h4>
+        <h1>{{class.$key}}</h1>
       </div>
     </div>
 </section>

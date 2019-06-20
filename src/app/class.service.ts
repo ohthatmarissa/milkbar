@@ -7,10 +7,15 @@ export class ClassService {
   classes: FirebaseListObservable<any[]>;
 
   constructor(private database: AngularFireDatabase) { 
-    this.classes = database.list('classes'); }
+    this.classes = database.list('classes');
+  }
 
 
   getClasses(){
     return this.classes;
+  }
+
+  getClassById(classId: string) {
+    return this.database.object('classes/' + classId);
   }
 }
