@@ -10,12 +10,14 @@ import { Class } from '../class.model';
 })
 export class ClassDetailComponent implements OnInit {
   classId: number = null;
+  
 
   constructor(private route: ActivatedRoute, private location: Location) { }
 
   ngOnInit() {
     this.route.params.forEach((urlParameters) => {
       this.classId = parseInt(urlParameters['id']);
+     
     });
   }
 
