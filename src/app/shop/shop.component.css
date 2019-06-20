@@ -1,0 +1,22 @@
+.america {
+    background-color: #fff1de;
+    text-align: center;
+    padding-right:100px;
+    padding-left:100px;
+    padding-top: 30px;
+}
+
+#shop {
+    background-color: black;
+    color: white;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    letter-spacing: 6.5px;
+
+}
+
+p {
+    font-weight: 400;
+}
