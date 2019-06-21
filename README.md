@@ -6,7 +6,7 @@
 
 ## Description
 
-A website created with HTML, CSS, JavaScript, Angular, Node, and Webpacks that allows users to navigate through a sugary sweet world of a shop to buy treats, books, and merch. Classes where a user can book a spot in a class to learn to make MilkBar signature cakes. A recipe page where users can get all the info they need to recreate all of the signature treats right at home. A page of locations where a user  can locate a shop to visit in person. An about page where users can learn about the history of MilkBar.
+A website created with HTML, CSS, JavaScript, Angular, Node, Firebase, and Webpacks that allows users to navigate through a sugary sweet world of a shop to buy treats, books, and merch. Classes where a user can book a spot in a class to learn to make MilkBar signature cakes. A recipe page where users can get all the info they need to recreate all of the signature treats right at home. A page of locations where a user  can locate a shop to visit in person. An about page where users can learn about the history of MilkBar.
 
 
 ### Specs
@@ -54,6 +54,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * esLint
 * Jasmin
 * Karma
+* Firebase
 
 
 ## Support and contact details
