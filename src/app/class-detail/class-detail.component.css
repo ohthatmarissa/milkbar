@@ -1,3 +1,25 @@
 .main {
-    text-align: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgb(245, 206, 232);
 }
+
+.image {
+    float: left;
+    height: 50%;
+    width: auto;
+}
+
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    padding-right: 50px;
+}
+
+h1 {
+    font-weight: 900;
+    letter-spacing: 6.5px;
+    line-height: 34px;
+}
+

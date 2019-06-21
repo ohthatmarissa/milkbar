@@ -1,15 +1,11 @@
-<p>
-  class-detail works!
-</p>
 <section class="main">
+    <div class="image">
+      <img src="./assets/img/{{(classToDisplay | async)?.image}}" style="width:500px;height:500px;">
+    </div>
+<div class="info">
+<h1>{{(classToDisplay | async)?.title}} -{{(classToDisplay | async)?.location}}</h1>
 
-<h1>{{(classToDisplay | async)?.title}}</h1>
-<h2>{{(classToDisplay | async)?.location}}</h2>
 <p>{{(classToDisplay | async)?.description}}</p>
-<img src="./assets/img/{{(classToDisplay | async)?.image}}">
-
-
+</div>
 
 </section>
-  <!-- constructor(public title: string, public location: string, public image: string,  public description: string, public id: number) { }
-} -->
