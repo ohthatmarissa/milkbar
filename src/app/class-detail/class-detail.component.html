@@ -2,7 +2,12 @@
   class-detail works!
 </p>
 <section class="main">
+
 <h1>{{(classToDisplay | async)?.title}}</h1>
+<h2>{{(classToDisplay | async)?.location}}</h2>
+<p>{{(classToDisplay | async)?.description}}</p>
+<img src="./assets/img/{{(classToDisplay | async)?.image}}">
+
 
 
 </section>
