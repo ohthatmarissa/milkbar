@@ -1,6 +1,7 @@
 # MilkBar Recreation
 
 #### A web application that recreates the magic of the MilkBar website!
+#### Please check it out here: https://milkbar-97981.firebaseapp.com/
 
 #### By **Marissa Perry**
 
