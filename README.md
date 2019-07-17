@@ -6,23 +6,9 @@
 
 ## Description
 
-A website created with HTML, CSS, JavaScript, Angular, Node, Firebase, and Webpacks that allows users to navigate through a sugary sweet world of a shop to buy treats, books, and merch. Classes where a user can book a spot in a class to learn to make MilkBar signature cakes. A recipe page where users can get all the info they need to recreate all of the signature treats right at home. A page of locations where a user  can locate a shop to visit in person. An about page where users can learn about the history of MilkBar.
+A website created with HTML, CSS, JavaScript, Angular, Node, Firebase, and Webpacks that allows users to navigate through a sugary sweet world. 
+This project was to demonstrate the ability to recreate a website with Angular and Firebase. This was a very front end heavy project. I recreated the majority of the Home page and Classes page with the ability to view Class Detail with Firebase API calls.
 
-
-### Specs
-| **Has a Home Page with Nav bar to:**| 
-| **Shop** | Seasonal Shop | Cakes | Pies | Cookies | Truffles | Mixes | Cookbooks and Merch | Giftcards |
-| **Classes** | Description of classes | Classes | Giftcards | Private Classes | Photos |
-| **Recipes** | MilkBar Pie | Bday Truffles | Compost Cookies | Chocolate Malt Cake | Birthday Cake | Cereal Milk | FAQ | Link to Classes |
-| **Locations** | Description of Locations | NYC | LA | DC | Boston | Vegas | Toronto |
-| **About** | About MilkBar | About Christina Tosi | Videos | Photos| Press |
-| Spec | Input | Output |
-| :-------------     | :------------- | :------------- |
-| **Program has main page** | User input:  | Output:  |
-| **Program returns**| User Input:  | Output:  |
-| **Program returns**| Input:  | Output:  |
-| **Program returns** | Input:  | Output:  |
-| **Program returns** | Input: | Output:  |
 
 
 ## Setup/Installation Requirements

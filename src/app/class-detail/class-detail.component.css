@@ -1,7 +1,10 @@
+
+
 .main {
     display: grid;
     grid-template-columns: 50% 50%;
     background-color: rgb(245, 206, 232);
+    margin: 0 50px 0 50px;
 }
 
 .image {
